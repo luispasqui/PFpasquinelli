@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/android-chrome-192x192.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>El Galeon Eventos</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <div class="img">
+            <img src="../imagenes/descarga.jpg" alt="logogaleon">
+          </div>
+        <h1>EL GALEON</h1>
+        <p class="consulta">Envianos tu consulta</p>
+    </header>
+    <main class="form">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip01" class="form-label">¿Cual es tu nombre?</label>
+              <input type="text" class="form-control" id="validationTooltip01" value="Nombre" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip02" class="form-label">Fecha del Evento</label>
+              <input type="date" class="form-control" id="validationTooltip02" value="Otto" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+        </div>
+              </div>
+            </div>
+            <div class="col-md-6 position-relative">
+              <label for="validationTooltip03" class="form-label">Tu Telefono</label>
+              <input type="text" class="form-control" id="validationTooltip03" required>
+              <div class="invalid-tooltip">
+               Por favor introduzca un telefono valido.
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip04" class="form-label">Tipo de Evento</label>
+              <select class="form-select" id="validationTooltip04" required>
+                <option selected disabled value="">Elige...</option>
+                <option value="if">CUMPLE INFANTIL</option>
+                <option value="bs">BABY SHOWER</option>
+                <option value="bau">BAUTISMO</option>
+                <option value="pa">PRIMER AÑITO</option>
+                <option value="paybau">PRIMER AÑITO Y BAUTISMO</option>
+                <option value="com">COMUNION</option>
+                <option value="ft">FIESTA TEENS</option>
+                <option value="egre">EGRESADOS</option>
+                <option value="ca">CUMPLE ADULTOS</option>
+              </select>
+              <div class="invalid-tooltip">
+                Por favor elegi una opcion.
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip05" class="form-label">Dejanos tu consulta</label>
+              <input type="text" class="form-control" id="validationTooltip05">
+            </div>
+            <div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar datos</button>
+                    <button class="btn btn-primary" type="reset">Borrar datos</button>
+                  </div>
+             </div>
+        
+            
+          </form>
+    </main>
+    <footer class="footerform">
+        <a class="volinicio" href="../index.html">Volver a la pagina de Inicio</a>
+    </footer>
+ 
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

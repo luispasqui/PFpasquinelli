@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagenes/android-chrome-192x192.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>
+        El Galeon Eventos
+    </title>
+</head>
+<body>
+    <header>
+    <div class="img">
+        <img src="./imagenes/descarga.jpg" alt="logogaleon">
+      </div>
+
+      <h1 class="animate__animated animate__heartBeat">
+        El Galeon Eventos
+      </h1>
+      <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li id="servicios"><a href="./html/servicios.html">Servicios</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#contactos">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br>
+    <main>
+      <h2 class="h2">Servicios</h2>
+      <p class="pgaleon">
+        EL GALEON te ofrece un moderno, confortable y cálido lugar en donde la distinción y calidad en el servicio se da por excelencia. Pudiendo agasajar a tus invitados en eventos de bautismos, comuniones y demás eventos sociales. Para conocer más de nuestros servicios apretá el boton de <a href="#servicios">servicios</a> en nuestro menú.
+         </p>
+         <div id="carouselExampleIndicators" class="carousel slide fotos" data-aos="fade-down">
+          <div id="fotos" class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagenes/foto1.jpg" class="d-block w-100" alt="foto1">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/foto2.jpg" class="d-block w-100" alt="foto2">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/foto3.jpg" class="d-block w-100" alt="foto3">
+            </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </main>
+     
+      <footer data-aos="zoom-in-down">
+        <h2 class="h2" id="contactos">Contacto</h2>
+        <div class="cont">
+        <div class="ig"><a href="https://www.instagram.com/elgaleoneventos/?hl=es" target="_blank"><img src="./imagenes/logoig.webp" width="120px" alt="instagram" ></a></div>
+        <div class="fb"><a href="https://www.facebook.com/p/El-Galeon-Eventos-100057102084920/?locale=es_LA" target="_blank"><img src="./imagenes/logofb.webp" width="120px" alt="facebook"></a></div>
+        <div class="wpp"><a href="https://wa.me/1151378373" target="_blank"><img src="./imagenes/logowpp.webp" width="120px" alt="whatsapp"></a></div>
+      </div>
+        <p class="formcont">Tambien podes hacer click <a href="./html/formulariocontacto.html">aqui</a>,completar el formulario y nosotros te contactamos</p>
+      </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
+</body>
+</html>

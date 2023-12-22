@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(129, 50, 21);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+header{
+    h1{
+        color: rgb(29, 29, 119);
+        text-align: center;
+        padding: 2px;
+        font-size: 2.5rem;
+    }
+    .img{ text-align: center;
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: white 3px solid;
+            padding: 10px;
+         }
+         img:hover{
+            border:rgb(29, 29, 119)  3px solid;
+         }
+       
+    }
+    nav{
+        height: 80px;
+        width: 80%;
+        margin: 10px auto;
+        background-color: rgb(29, 29, 119)  ;
+        padding: 20px;
+        border-radius: 20%;
+    }
+    ul{
+        list-style-type: none;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        a{
+            padding: 10px;
+            margin: 10px;
+            text-decoration: none;
+            color:white;
+            &:hover{
+                background-color: rgb(129, 50, 21);
+                border-radius: 20%;
+            }
+        } 
+    }
+
+}
+main{
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .pgaleon{
+        font-size: 1.5rem;
+        line-height: 1.5;
+        padding: 20px;
+        width: 500px;
+        height: 350px;
+        border: black solid 3px;
+        margin:auto;
+        
+    }
+    .fotos{
+        width: 400px;
+        height: 500px;
+        margin: 20px auto;
+        display: flex
+      
+    }
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgb(29, 29, 119)  ;
+    padding: 20px;
+    .ig{
+        display: inline-block
+    }
+    .wpp{
+        display: inline-block;
+    }
+    .fb{
+        display: inline-block;
+    }
+    
+}
+.servicios{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.servhd{
+    padding: 20px;
+}
+.servmain{
+    padding: 20px;
+    .lista{
+        text-align: center;
+        width: 500px;
+        margin: auto;
+    }
+}
+.servfooter{
+    .volinicio{
+        color: rgb(129, 50, 21);
+    }
+}
+.form{
+    padding: 20px;
+}
+.footerform{
+    padding: 20px;
+}
+.boca{
+    background-color: rgb(29, 29, 109);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    .res{
+        color: yellow;
+    }
+    .menuavr{
+        background-color: yellow;
+        color: black;
+    }
+}
+.bdg{
+    .roman{
+        color: yellow;
+    }
+    .pbdg{
+        font-size: 1.5rem;
+        text-align: center;
+        color: black;
+    }
+}
+.platos{
+    .entradas{
+        text-align: center;
+        border: 2px black solid;
+        font-size: 1.5rem;
+    }
+    .pp{
+        text-align: center;
+        border: 2px black solid;
+        font-size: 1.5rem;
+        background-color: yellow;
+        
+    }
+    .postres{
+        text-align: center;
+        border: 2px black solid;
+        font-size: 1.5rem;
+       
+    }
+}
+

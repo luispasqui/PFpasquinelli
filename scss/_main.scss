@@ -1,0 +1,24 @@
+main{
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .pgaleon{
+        font-size: 1.5rem;
+        line-height: 1.5;
+        padding: 20px;
+        width: 500px;
+        height: 350px;
+        border: black solid 3px;
+        margin:auto;
+        
+    }
+    .fotos{
+        width: 400px;
+        height: 500px;
+        margin: 20px auto;
+        display: flex
+      
+    }
+}
